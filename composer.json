@@ -10,12 +10,22 @@
         {"name": "Jonathan Wage", "email": "jonwage@gmail.com"},
         {"name": "Michael Simonson", "email": "contact@mikesimonson.com" }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Ocramius/ProxyManager.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Ocramius/zend-code.git"
+        }
+    ],
     "require": {
         "php": "^5.5|^7.0",
         "doctrine/dbal": "~2.2",
         "symfony/yaml": "~2.3|~3.0",
         "symfony/console": "~2.3|~3.0",
-        "ocramius/proxy-manager": "^1.0|^2.0"
+        "ocramius/proxy-manager": "dev-feature/php-7.1-support"
     },
     "require-dev": {
         "doctrine/orm": "2.*",
